@@ -12,7 +12,7 @@ public static void main(String[] args) {
   System.out.println("ingrese la hipotenusa");
         double H=input.nextDouble();
 
-C= SQTR ((H*H) - (R*R));
+C= Math.sqrt ((H*H) - (R*R));
 AT= 2* (R*C)/2;
 AC= (3.1416*R*R)/2;
 Area= (AT + AC);
