@@ -9,8 +9,8 @@ public static void main(String[] args) {
   System.out.println("ingrese el radio de la circuferencia");
         double R=input.nextDouble();
 
-
-    System.out.println("su area es: " + PI * R * R);
+area= PI * R * R;
+    System.out.println("su area es: " + area);
 
 }
 }
