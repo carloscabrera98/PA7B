@@ -11,10 +11,10 @@ public class NumeroMayor{
 
 
     if (  A > B) {
-        System.out.println("the numbers : " + A + ","+ B);
+        System.out.println("the higher number is: " + A);
     }
-    else 
-        System.out.println("the numbers : " + B + ","+ A);
+    else
+        System.out.println("the higher number is: " + B);
 
       }
 
