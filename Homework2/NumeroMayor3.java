@@ -4,6 +4,7 @@ public class NumeroMayor3{
     Scanner input = new Scanner(System.in);
     int M;
 
+
     System.out.println("Enter a  first number: ");
     int A= input.nextInt();
     System.out.println("Enter a second number: ");
@@ -12,7 +13,7 @@ public class NumeroMayor3{
     int C= input.nextInt();
 
 
-  if (A > B && A > C) {
+ if (A > B && A > C) {
     M= A;
   } else if (B > A && B > C) {
     M= B;
