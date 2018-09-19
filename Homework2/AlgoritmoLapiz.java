@@ -9,12 +9,12 @@ public class AlgoritmoLapiz{
     int X= input.nextInt();
 
 
-    if (  X >= 1000)
+    if (  X >= 1000) {
       PAG= X * (.85);
 
-    else
+    }else{
         PAG= X* .90;
-
+}
 
 System.out.println("the pay is: " + PAG);
      }

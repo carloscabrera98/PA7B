@@ -9,12 +9,12 @@ public class AlgoritmoAlmacenes{
     int CT= input.nextInt();
 
 
-    if (  CT >= 2500)
+    if (  CT >= 2500) {
       DE= CT * .15;
 
-    else
+    }else{
         DE= CT * .08;
-
+}
 double PF= CT - DE;
 System.out.println("Your discount is : " + DE);
 System.out.println("The new cost of suit is : " + PF);

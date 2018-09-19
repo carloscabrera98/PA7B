@@ -10,11 +10,12 @@ public class NumeroPositivo{
 
 
 
-    if (  NUM > 0)
+    if (  NUM > 0){
         R= "Positive";
 
-    else
+    }else{
       R= "Negative";
+}
 
       System.out.println("the number is: " + R);
 
