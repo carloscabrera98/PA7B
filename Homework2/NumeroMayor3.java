@@ -16,9 +16,9 @@ public class NumeroMayor3{
     M= A;
   } else if (B > A && B > C) {
     M= B;
-  } else
+  } else {
     M=C;
-
+}
 
 System.out.println("the higher number is: " + M);
 }
