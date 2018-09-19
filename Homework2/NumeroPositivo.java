@@ -2,19 +2,21 @@ import java.util.Scanner;
 public class NumeroPositivo{
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
+    String R;
 
-
-    System.out.println("Enter a  first number: ");
+    System.out.println("Enter a number: ");
     int NUM= input.nextInt();
 
 
 
 
-    if (  NUM > 0) {
-        System.out.println("The number is positive");
-    }
+    if (  NUM > 0)
+        R= "Positive";
+
     else
-        System.out.println("the number is negative");
+      R= "Negative";
+
+      System.out.println("the number is: " + R);
 
       }
 
