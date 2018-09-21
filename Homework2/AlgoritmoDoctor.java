@@ -20,7 +20,7 @@ public class AlgoritmoDoctor{
   CC=50;
   TOT= (NC-8) * 50 + 1200;
 }
-TOT= NC * CC;
+
 System.out.println("the price per Consult is: " + CC);
 System.out.println("the treatment cost is : " + TOT);
    }
