@@ -14,6 +14,6 @@ do{
 JOptionPane.showMessageDialog(null, salida);
 
 }while(i != 0);
-JOptionPane.showMessageDialog(null, "salida");
+JOptionPane.showMessageDialog(null, "fin");
   }
   }
