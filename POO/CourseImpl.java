@@ -30,7 +30,7 @@ public class CourseImpl{
        break;
        //Mostrar numero de estudiantes
        case 5:
-JOptionPane.showMessageDialog(null, "El numero de estudiantes en el curso de: " + curso1.getCourseName() + " es de: " + curso1.getNumberOfStudents());
+JOptionPane.showMessageDialog(null, "El numero de estudiantes en el curso es de: " + curso1.getNumberOfStudents());
        break;
        default:
        JOptionPane.showMessageDialog(null, "Solamente elige del 1 al 5");
